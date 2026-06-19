@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "prebuild": "node -e \"try { if (process.platform !== 'win32') require('fs').chmodSync('./node_modules/.bin/vite', 0o755) } catch (_) {}\"",
-    "build": "vite build",
+    "build": "node ./node_modules/vite/bin/vite.js build",
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
