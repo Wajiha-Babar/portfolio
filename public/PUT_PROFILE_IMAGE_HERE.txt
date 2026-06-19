@@ -1,0 +1,7 @@
+To add Wajiha's real profile photo:
+1. Put the photo in this public folder.
+2. Rename it to profile.jpg
+3. Run npm run dev again.
+
+If you want to use another filename like wajiha.png, update src/main.jsx:
+image: "/wajiha.png"
